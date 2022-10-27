@@ -30,5 +30,5 @@ jobs:
 
         az vm open-port -n clivm --port 8002-8003 --priority 100
 
-        az ml workspace create -n /subscriptions/b7d41fc8-d35d-41db-92ed-1f7f1d32d4d9/resourceGroups/ams-fedlearn/providers/Microsoft.MachineLearningServices/workspaces/Asia-Hospital --location eastasia
+        az ml workspace create -n Asia-Hospital --location eastasia
       
