@@ -37,5 +37,5 @@ jobs:
         az ml compute create --type ComputeInstance --name amsFedClientEurope --workspace-name /subscriptions/b7d41fc8-d35d-41db-92ed-1f7f1d32d4d9/resourceGroups/ams-fedlearn/providers/Microsoft.MachineLearningServices/workspaces/Europe-Hospital
 
         az ml workspace create -n /subscriptions/b7d41fc8-d35d-41db-92ed-1f7f1d32d4d9/resourceGroups/ams-fedlearn/providers/Microsoft.MachineLearningServices/workspaces/US-Hospital --location eastus
-        az ml compute create --type ComputeInstance --name amsFedClientAsia --workspace-name /subscriptions/b7d41fc8-d35d-41db-92ed-1f7f1d32d4d9/resourceGroups/ams-fedlearn/providers/Microsoft.MachineLearningServices/workspaces/US-Hospital
+        az ml compute create --type ComputeInstance --name amsFedClientUS --workspace-name /subscriptions/b7d41fc8-d35d-41db-92ed-1f7f1d32d4d9/resourceGroups/ams-fedlearn/providers/Microsoft.MachineLearningServices/workspaces/US-Hospital
         
